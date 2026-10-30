@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Ask a question or start a discussion
+    url: https://github.com/opencoos/spec/discussions
+    about: Questions, ideas and early conversations that aren't yet a specific issue or proposal.
   - name: Contribution guide
     url: https://github.com/opencoos/.github/blob/main/CONTRIBUTING.md
     about: How to propose changes, validate the specification and sign off commits.

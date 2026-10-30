@@ -45,7 +45,7 @@ This guide applies to every repository in the [OpenCOOS organization](https://gi
 | [opencoos/website](https://github.com/opencoos/website) | The documentation site: errors, broken links, accessibility, layout |
 | [opencoos/.github](https://github.com/opencoos/.github) | This guide, the issue templates and the organization profile |
 
-Choose a template when you open an issue. If none fits, a plain issue is fine.
+For questions, ideas and early conversations, use [Discussions](https://github.com/opencoos/spec/discussions). It's a good place to start if you're not sure whether something is an issue. For a specific problem or change, open an issue and choose a template; if none fits, a plain issue is fine.
 
 ## Proposing changes to the specification
 

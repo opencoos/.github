@@ -24,6 +24,7 @@ OpenCOOS maintains **COOS — the Common Ownership Operating Schema**: an open, 
 
 You don't need to be a developer. Strata council members, condo board directors, owners, property managers, lawyers, accountants, engineers and software vendors can all help.
 
+- **Have a question or an idea?** [Join the discussion](https://github.com/opencoos/spec/discussions)
 - **Spot a problem or a term that doesn't match your province?** [Open an issue](https://github.com/opencoos/spec/issues/new/choose)
 - **Want to propose a change?** Read the [contribution guide](https://github.com/opencoos/.github/blob/main/CONTRIBUTING.md)
 
