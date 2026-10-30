@@ -1,0 +1,36 @@
+name: Specification problem
+description: An error in a schema, example, definition or controlled vocabulary.
+title: "[Spec]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Specification version
+      placeholder: 0.1.0-draft
+    validations:
+      required: true
+  - type: input
+    id: entity
+    attributes:
+      label: Entity and field
+      placeholder: e.g. Levy.allocations
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: What the specification says, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example payload (fictional data only)
+      render: json
+  - type: textarea
+    id: affiliation
+    attributes:
+      label: Affiliation (optional)
+      description: If you work for a software vendor, management company or other interested organization, please say so.

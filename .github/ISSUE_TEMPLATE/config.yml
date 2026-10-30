@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/opencoos/.github/blob/main/CONTRIBUTING.md
+    about: How to propose changes, validate the specification and sign off commits.

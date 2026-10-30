@@ -1,0 +1,22 @@
+name: Website issue
+description: A problem with the documentation site, such as an error, broken link or accessibility issue.
+title: "[Website]: "
+labels: ["website"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: e.g. /data-model/StrataLot
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device (if relevant)

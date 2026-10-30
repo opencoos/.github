@@ -1,0 +1,51 @@
+name: Terminology or real-world feedback
+description: A term, definition or workflow that doesn't match how strata or condo communities actually work. No technical knowledge needed.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make COOS match the real world. **Please don't include real names, contact details, unit numbers tied to real people, or confidential records.** Fictional examples are perfect.
+  - type: dropdown
+    id: province
+    attributes:
+      label: Province or territory
+      description: Where does your experience come from?
+      options:
+        - British Columbia (strata)
+        - Ontario (condominium)
+        - Alberta (condominium)
+        - Another province or territory
+        - Applies everywhere
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your perspective
+      options:
+        - Strata council member or condo board director
+        - Owner or resident
+        - Property or strata manager
+        - Lawyer, accountant, engineer, insurer or appraiser
+        - Software vendor or developer
+        - Researcher
+        - Other
+  - type: input
+    id: entity
+    attributes:
+      label: Which part of COOS?
+      description: An entity, field or page, if you know it. For example "StrataLot", "Resolution.voteThreshold" or "the jurisdictions page".
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What doesn't match?
+      description: Describe what COOS says and how it works in practice, using a fictional example if helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: affiliation
+    attributes:
+      label: Affiliation (optional)
+      description: If you work for a software vendor, management company or other interested organization, please say so.

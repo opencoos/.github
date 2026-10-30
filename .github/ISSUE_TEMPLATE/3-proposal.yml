@@ -1,0 +1,61 @@
+name: Proposal
+description: Propose a new entity, field, vocabulary value, province, or a breaking change.
+title: "[Proposal]: "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Substantial changes start here. See [proposing changes](https://github.com/opencoos/.github/blob/main/CONTRIBUTING.md#proposing-changes-to-the-specification). Use fictional examples only.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What real-world need isn't met today?
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Real-world examples
+      description: How this works in practice today, with fictional data.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Entities, fields, types, vocabulary values and definitions. A draft JSON Schema snippet is welcome.
+    validations:
+      required: true
+  - type: checkboxes
+    id: provinces
+    attributes:
+      label: Provinces affected
+      options:
+        - label: British Columbia (strata)
+        - label: Ontario (condominium)
+        - label: Alberta (condominium)
+        - label: Other provinces or territories
+  - type: dropdown
+    id: breaking
+    attributes:
+      label: Is this a breaking change?
+      description: Removing or renaming a field, making a field required, removing a vocabulary value, or tightening a constraint.
+      options:
+        - "No"
+        - "Yes"
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: Please disclose any organization with an interest in this change (for example, the product you work on), or write "None".
+    validations:
+      required: true
