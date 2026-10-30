@@ -5,7 +5,8 @@
 <h1 align="center">OpenCOOS</h1>
 
 <p align="center"><strong>Open standards for community management</strong><br>
-🍁 Proudly Canadian · For strata and condo communities across Canada</p>
+🍁 Proudly Canadian · For strata and condo communities across Canada<br>
+<a href="https://opencoos.org">opencoos.org</a></p>
 
 ---
 
@@ -18,7 +19,7 @@ OpenCOOS maintains **COOS — the Common Ownership Operating Schema**: an open, 
 | Repository | What's in it |
 | --- | --- |
 | [**spec**](https://github.com/opencoos/spec) | The COOS specification: JSON Schemas, examples, domains and changelog |
-| [**website**](https://github.com/opencoos/website) | The documentation site and Data Model Explorer |
+| [**website**](https://github.com/opencoos/website) | The documentation site and Data Model Explorer, live at [opencoos.org](https://opencoos.org) |
 
 ### Get involved
 
